@@ -1,6 +1,6 @@
 
-Flax NNX
-========
+Flax
+====
 .. div:: sd-text-left sd-font-italic
 
    **N**\ eural **N**\ etworks for JA\ **X**
@@ -8,17 +8,18 @@ Flax NNX
 
 ----
 
-**Flax NNX is a simplified API that makes it easier to create, inspect,
-debug, and analyze neural networks in JAX.** It has first class support
-for Python reference semantics, allowing users to express their models using regular
-Python objects. Flax NNX is an evolution of the previous Flax Linen APIs, and it takes years of
-experience to bring a simpler and more user-friendly experience.
+Flax provides a **flexible end-to-end user experience for researchers and developers who use JAX for neural networks**. Flax enables you to use the full power of `JAX <https://jax.readthedocs.io>`__.
+
+At the core of Flax is **NNX - a simplified API that makes it easier to create, inspect,
+debug, and analyze neural networks in JAX.** Flax NNX has first class support
+for Python reference semantics, enabling users to express their models using regular
+Python objects. Flax NNX is an evolution of the previous `Flax Linen <https://flax-linen.readthedocs.io/>`__
+API, and it took years of experience to bring a simpler and more user-friendly API.
 
 .. note::
-   Flax Linen is not going to be deprecated in the near future as most of our users still
-   rely on this API, however new users are encouraged to use Flax NNX.
-
-   For existing Linen users to move to NNX, check out the `evolution guide <guides/linen_to_nnx.html>`_.
+   Flax Linen API is not going to be deprecated in the near future as most of Flax users still
+   rely on this API. However, new users are encouraged to use Flax NNX.
+   For existing Flax Linen users planning to move to Flax NNX, check out the `evolution guide <guides/linen_to_nnx.html>`_ and `Why Flax NNX <why.html>`_.
 
 Features
 ^^^^^^^^^
@@ -76,7 +77,7 @@ Features
          .. div:: sd-font-normal
 
             Flax NNX makes it very easy to integrate objects with regular JAX code
-            via the `Functional API <nnx_basics.html#the-functional-api>`__.
+            via the `Functional API <nnx_basics.html#the-flax-functional-api>`__.
 
 Basic usage
 ^^^^^^^^^^^^
@@ -158,23 +159,30 @@ Learn more
    .. grid-item::
       :columns: 6 6 6 4
 
-      .. card:: :material-regular:`sync_alt;2em` Flax vs JAX Transformations
+      .. card:: :material-regular:`library_books;2em` Guides
          :class-card: sd-text-black sd-bg-light
-         :link: transforms.html
+         :link: guides/index.html
 
    .. grid-item::
       :columns: 6 6 6 4
 
-      .. card:: :material-regular:`transform;2em` Haiku and Flax Linen vs Flax NNX
+      .. card:: :material-regular:`transform;2em` Flax Linen to Flax NNX
          :class-card: sd-text-black sd-bg-light
-         :link: haiku_linen_vs_nnx.html
+         :link: guides/linen_to_nnx.html
 
    .. grid-item::
       :columns: 6 6 6 4
 
       .. card:: :material-regular:`menu_book;2em` API reference
          :class-card: sd-text-black sd-bg-light
-         :link: ../api_reference/flax.nnx/index.html
+         :link: api_reference/index.html
+
+   .. grid-item::
+      :columns: 6 6 6 4
+
+      .. card:: :material-regular:`import_contacts;2em` Glossary
+         :class-card: sd-text-black sd-bg-light
+         :link: glossary.html
 
 
 ----
@@ -185,8 +193,10 @@ Learn more
 
    nnx_basics
    mnist_tutorial
+   why
    guides/index
    examples/index
+   glossary
    The Flax philosophy <philosophyhttps://flax.readthedocs.io/en/latest/philosophy.html>
    How to contribute <https://flax.readthedocs.io/en/latest/contributing.html>
    api_reference/index
